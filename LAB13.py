@@ -68,8 +68,6 @@ class bus(Vehicle):
 
 
 class truck(Vehicle):
-    def drive(self,):
-        print(f"{self.get_name()} is driving!")
 
     def drift(self,):
         print(f"{self.get_name()} can not drifting !!")    
