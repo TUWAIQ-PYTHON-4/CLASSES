@@ -1,17 +1,17 @@
 class Vehicle:
-    def _init_(self, nabrandme,  name, color,capacity, plate_number):
+    def _init_(self, brand,  name, color,capacity, plate_number):
         
-        self.__nabrandme = nabrandme
+        self.__brand = brand
         self.__name = name 
         self.__color = color
         self.__capacity = capacity 
         self.plate_number= plate_number
 
    
-    def set_nabrandme(self, nabrandme):
-        self.__nabrandme = nabrandme
-    def get_nabrandme(self):
-        return self.__nabrandme
+    def set_brande(self, brand):
+        self.__brand = brand
+    def get_brande(self):
+        return self.__brand
     def set_name(self, name):
         self.__name = name
     def get_name(self):
