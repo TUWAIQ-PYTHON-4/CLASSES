@@ -49,9 +49,9 @@ class Bus(Vehicle):
         print(f"The {self.get_name()}  isn't carrying cargo !!")
 
 
-vehicle = Vehicle("Hyundai","Sonata","white",5,4545)
-truck1 = Truck("volvo", "FMX", "gray",2,1234)
-bus1 = Bus("gillig", "LLC", "black", 40, 1122)
+vehicle = Vehicle("Toyota","..","black",3,3333)
+truck1 = Truck("Toyota", "..", "red",3,1111)
+bus1 = Bus("Toyota", "...", "blue", 5, 1111)
 
 vehicle.drift()
 truck1.drift()
